@@ -6,7 +6,7 @@ import Pizza3 from '../img/pizza (5).png'
 function Favorite() {
     return (
         <div className="favorite">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 text-center heading">
                         <h2>Choose your</h2>

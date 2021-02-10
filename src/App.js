@@ -1,5 +1,3 @@
-import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -8,7 +6,7 @@ import About from './components/About'
 import Features from './components/Features'
 import Partners from './components/Partners'
 import Footer from './components/Footer'
-import './scss/style.scss';
+import './scss/App.scss';
 
 function App() {
   return (

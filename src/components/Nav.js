@@ -6,6 +6,7 @@ function Nav() {
     const navScrolling = {
         width: `${scroll}%`
     }
+    /* toggle open & close nav */
     const openNav = () => {
         let nav = document.querySelector('.nav')
         nav.style.height = "100vh";
@@ -25,13 +26,10 @@ function Nav() {
         nav.querySelector('nav').style.display = "none";
     }
     useEffect(() => {
-        (() =>{
-          /*  `${document.getElementsByClassName("nav").item(0).clientHeight}px`; */
-            document.getElementsByClassName("header").item(0).style.marginTop = 
-            `${document.getElementsByClassName("nav").item(0).clientHeight}px`;
-        })();
         const  navColor = () =>{
-            window.scrollY > 100 ? setNavActive(true) : setNavActive(false);
+            /* nav change bg color >> onscroll */
+            window.scrollY > 70 ? setNavActive(true) : setNavActive(false);
+            /* nav scroll bar width >> on scroll*/
             setScroll(
                 (window.pageYOffset/(document.body.offsetHeight - window.innerHeight )*100)*100/100
             )
