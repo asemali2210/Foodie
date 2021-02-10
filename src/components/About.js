@@ -11,11 +11,8 @@ function About() {
         <div className="about" id="about"> 
             <div className="container">
                 <div className="row">
-<<<<<<< HEAD
                     <div className="col-lg-7 col-12 img">
-=======
                     <div className="col-lg-6 col-12 img">
->>>>>>> 20717422254bd95d6815b9f4e677f33959ec43f5
                         <img src={chefSrc} 
                         onMouseEnter={()=> {
                             setChefSrc(chefHover)
