@@ -10,7 +10,6 @@ function About() {
         <div className="about" id="about"> 
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-7 col-12 img">
                     <div className="col-lg-6 col-12 img">
                         <img src={chefSrc} 
                         onMouseEnter={()=> {
@@ -30,7 +29,6 @@ function About() {
                         <button>Learn more</button>
                         <img src={pizzaSlice} className="pizza-slice"/>
                     </div>
-            </div>
             </div>
             </div>
         </div>
