@@ -9,7 +9,7 @@ function About() {
         <div className="about" id="about"> 
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 img">
+                    <div className="col-lg-6 col-12 img">
                         <img src={chefSrc} 
                         onMouseEnter={()=> {
                             setChefSrc(chefHover)
@@ -19,7 +19,7 @@ function About() {
                         }}
                         />
                     </div>
-                    <div className="col-md-6 content">
+                    <div className="col-lg-6 col-12 content">
                         <h2>We have team of</h2>
                         <h4>World's best chefs</h4>
                         <p>Award winning restaurant</p>
