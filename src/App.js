@@ -11,13 +11,13 @@ import './scss/App.scss';
 function App() {
   return (
     <div className="App">
-              <Nav />
-              <Header/>
-              <Favorite />
-              <About />
-              <Features />
-              <Partners />
-              <Footer />
+        <Nav />
+        <Header/>
+        <Favorite />
+        <About />
+        <Features />
+        <Partners />
+        <Footer />
     </div>
   );
 }
